@@ -1,4 +1,3 @@
-{
   "mode": "Indexed",
 "policyRule": {
   "if": {
@@ -10,4 +9,3 @@
   }
 },
 "parameters": {}
-}
