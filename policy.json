@@ -1,11 +1,13 @@
+{
   "mode": "Indexed",
-"policyRule": {
-  "if": {
-    "field": "tags",
-    "exists": "false"
+  "policyRule": {
+    "if": {
+      "field": "tags",
+      "exists": "false"
+    },
+    "then": {
+      "effect": "deny"
+    }
   },
-  "then": {
-    "effect": "deny"
-  }
-},
-"parameters": {}
+  "parameters": {}
+}
