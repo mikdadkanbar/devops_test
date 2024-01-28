@@ -1,0 +1,12 @@
+"mode": "Indexed",
+"policyRule": {
+  "if": {
+    "field": "tags",
+    "exists": "false"
+  },
+  "then": {
+    "effect": "deny"
+  }
+},
+"parameters": {}
+}
